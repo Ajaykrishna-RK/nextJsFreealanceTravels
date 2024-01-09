@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.headFont{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* .filterForImage{
+    background-color: red;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    padding: 20px;
+    margin: 30px;
+    font-weight: bold;
+} */
