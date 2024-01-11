@@ -72,7 +72,7 @@ function SectionThree() {
       <div ref={ref} className="grid   grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4  sm:px-10 mt-10">
         {datas?.map((item) => (
           <motion.div
-          
+          key={item?.id}
           variants={{
             hidden: { opacity: 0, y: 75 },
             visible: { opacity: 1, y: 0 },
