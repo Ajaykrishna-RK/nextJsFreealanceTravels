@@ -63,6 +63,7 @@ function SectionFour() {
       >
         {data?.map((item) => (
           <motion.div
+          key={item?.id}
             variants={{
               hidden: { opacity: 0, y: -75 },
               visible: { opacity: 1, y: 0 },
