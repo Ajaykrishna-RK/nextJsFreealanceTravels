@@ -11,10 +11,10 @@ function SectionTwo() {
     if (isInView) {
       mainControls.start("visible");
     }
-  }, [isInView,mainControls]);
+  }, [isInView]);
 
 
-
+  
   return (
     <div ref={ref} className="grid grid-cols-1 lg:grid-cols-2 mt-10 lg:mt-20 gap-5 lg:gap-10">
       <motion.div

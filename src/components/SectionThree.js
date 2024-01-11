@@ -42,7 +42,7 @@ function SectionThree() {
     if (isInView) {
       mainControls.start("visible");
     }
-  }, [isInView,mainControls]) ;
+  }, [isInView]) ;
 
   return (
     <>
