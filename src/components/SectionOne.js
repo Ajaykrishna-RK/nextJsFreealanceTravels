@@ -32,7 +32,7 @@ function SectionOne() {
         className="justify-center lg:pl-10 lg:pr-0 pr-4 pl-4 items-center flex flex-col"
       >
         <p className="text-[#181e76] text-[2.5rem] leading-[48px]  font-[600]">
-          A bus rental that's affordable and comfortable
+        A bus rental that&apos;s affordable and comfortable
         </p>
         <p className="text-[18px] font-[400] text-[#111]  mt-4">
           Letius quis dui at lectus congue natoque et adipiscing curabitur
