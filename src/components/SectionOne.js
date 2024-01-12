@@ -17,7 +17,7 @@ function SectionOne() {
     if (isInView) {
       mainControls.start("visible");
     }
-  }, [isInView, mainControls]);
+  }, [isInView]);
 
   return (
     <div ref={ref} className="grid grid-cols-1 lg:grid-cols-2 mt-16">
