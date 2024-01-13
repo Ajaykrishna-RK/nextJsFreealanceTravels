@@ -42,7 +42,7 @@ const datas = [
       <div className="mt-10 mb-10 ">
         <p className="text-center text-[30px] font-[600]"> Contact Us </p>
         {datas?.map((item)=>(
-      <p className="text-center mt-2 text-[18px]"> 
+      <p key={item?.id} className="text-center mt-2 text-[18px]"> 
     {item?.name}</p>
         ))}
   
