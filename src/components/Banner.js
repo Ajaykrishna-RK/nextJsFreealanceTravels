@@ -31,6 +31,7 @@ export default function Banner() {
           <img
             src="https://web.moxcreative.com/bigtranz/wp-content/uploads/sites/19/2023/03/Coach-Bus-mockup-04.png"
             alt=""
+            loading="lazy"
           />
         </motion.div>
       </div>
