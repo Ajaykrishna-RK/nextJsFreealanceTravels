@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Banner() {
   return (
     <div
-      className="pt-[15%] pb-[5%"
+      className="pt-[15%] pb-[5%]"
       style={{ backgroundImage: "linear-gradient(150deg, #AE02FF ,#181E76);" }}
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 ">
@@ -28,10 +29,12 @@ export default function Banner() {
         animate={{ x: 0 ,opacity:1}} 
         exit={{ x: "100%",opacity:1 }} 
         transition={{ duration: 0.9 }} className="">
-          <img
+          <Image
+        
+        height={1000} width={1000}
             src="https://web.moxcreative.com/bigtranz/wp-content/uploads/sites/19/2023/03/Coach-Bus-mockup-04.png"
             alt=""
-            loading="lazy"
+         
           />
         </motion.div>
       </div>
